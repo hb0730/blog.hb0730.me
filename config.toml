@@ -1,0 +1,104 @@
+baseURL = 'https://blog.hb0730.com'
+languageCode = 'zh-CN'
+hasCJKLanguage = true
+title = 'My New Hugo Site'
+theme = "LoveIt"
+enableRobotsTXT = true
+
+[author]
+  name = 'hb0730'
+  email = 'huangbing0730@gmail.com'
+  link = ''
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = 'posts'
+    pre = ''
+    post = ''
+    name = '文章'
+    url = '/posts/'
+    title = ''
+  [[menu.main]]
+    weight = 2
+    identifier = 'tags'
+    pre = ''
+    post = ''
+    name = '标签'
+    url = '/tags/'
+    title = ''
+  [[menu.main]]
+    weight = 3
+    identifier = 'categories'
+    pre = ''
+    post = ''
+    name = '分类'
+    url = '/categories'
+    title = ''
+
+[params]
+  dateFormat = '2006-01-02'
+
+  [params.header]
+    desktopMode = 'fixed'
+    mobileMode = 'auto'
+    [params.header.title]
+      logo = ''
+      name = '开心就好'
+      pre = ""
+      post = ''
+      typeit = false
+  [parmas.home]
+    [params.home.profile]
+      enable = true
+      gravatarEmail = 'huangbing0730@gmail.com'
+      subtitle = '我本就是一个不喜欢主动的人，虽然灵魂有趣但不爱表达，还死倔，也慢热，遇到懂我的人是幸运，遇不到也是正常了，慢热、沉默、喜欢独处、三观正，比你想象的深情，也比你以为的冷漠'
+  [params.footer]
+    enable = true
+    hugo = true
+    copyright = true
+    author = true
+    since = '2019'
+    icp = ""
+    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  [params.social]
+    GitHub = 'hb0730'
+    Telegram = 'hb0730'
+    Email = 'huangbing0730@gmail.com'
+  [params.analytics]
+    enable = true
+    [params.analytics.google]
+      id = 'UA-150689827-1'
+      anonymizeIP = true
+  [params.search]
+    enable = true
+    type = 'lunr'
+  [params.page]
+    [params.page.share]
+      enable = false
+ 
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+  page = ['HTML', 'MarkDown']
+  section = ['HTML', 'RSS']
+  taxonomy = ['HTML', 'RSS']
+  taxonomyTerm = ['HTML']
