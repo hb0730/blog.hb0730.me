@@ -95,6 +95,7 @@ enableRobotsTXT = true
       enable = true
       [params.page.comment.disqus]
         enable = true
+	shortname = 'blog-hb0730'
  
 
 [sitemap]
