@@ -93,6 +93,8 @@ enableRobotsTXT = true
       enable = false
     [params.page.comment]
       enable = true
+      [params.page.comment.gitalk]
+        enable = true
  
 
 [sitemap]
