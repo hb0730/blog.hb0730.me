@@ -93,7 +93,7 @@ enableRobotsTXT = true
       enable = false
     [params.page.comment]
       enable = true
-      [params.page.comment.gitalk]
+      [params.page.comment.disqus]
         enable = true
  
 
