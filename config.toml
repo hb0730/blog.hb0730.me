@@ -35,6 +35,21 @@ enableRobotsTXT = true
     name = '分类'
     url = '/categories'
     title = ''
+  [[menu.main]]
+    weight = 4
+    identifier = 'life'
+    pre = ''
+    post = ''
+    name = '日志'
+    url = '/life'
+    title = ''
+  [[menu.main]]
+    identifier = 'about'
+    pre = ''
+    post = ''
+    name = '关于'
+    url = '/about'
+    title = ''
 
 [params]
   dateFormat = '2006-01-02'
@@ -76,6 +91,8 @@ enableRobotsTXT = true
   [params.page]
     [params.page.share]
       enable = false
+    [params.page.comment]
+      enable = true
  
 
 [sitemap]
