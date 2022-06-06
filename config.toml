@@ -1,4 +1,4 @@
-baseURL = 'https://blog.hb0730.com'
+baseURL = 'https://blog.hb0730.me'
 languageCode = 'zh-CN'
 hasCJKLanguage = true
 title = 'My New Hugo Site'
