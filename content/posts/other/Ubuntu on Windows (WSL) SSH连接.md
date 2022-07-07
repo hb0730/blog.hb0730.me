@@ -1,10 +1,10 @@
-```
+---
 title: 使用 SSH连接Ubuntu on Windows (WSL)
 date: 2022-07-07
 author: hb0730
 authorLink: https://blog.hb0730.me
 categoires: [ 'Other' ]
-```
+---
 
 * 首先是卸载重装一遍ssh服务，这里不是很确定是不是自带ssh服务有没有问题。
 
