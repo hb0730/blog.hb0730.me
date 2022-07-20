@@ -83,7 +83,7 @@ enableRobotsTXT = true
   [params.analytics]
     enable = true
     [params.analytics.google]
-      id = 'UA-150689827-1'
+      id = 'G-LLCB4FCW6D'
       anonymizeIP = true
   [params.search]
     enable = true
